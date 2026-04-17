@@ -34,3 +34,10 @@ The system processes **8-channel EEG data** (FC5, FC1, FC2, FC6, CP5, CP1, CP2, 
 1. Clone the repo:
    ```bash
    git clone [https://github.com/yourusername/NetraSync.git](https://github.com/yourusername/NetraSync.git)
+
+2. pip install -r requirements.txt
+3. ollama serve
+4. ollama pull llama3.2:1b
+5. python main.py
+
+   
