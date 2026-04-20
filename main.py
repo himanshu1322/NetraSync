@@ -17,9 +17,9 @@ from communication.llm_assistant import LLMAssistant
 def start_netrasync():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     
-    print("==================================================")
+    print("===================================================")
     print("   NETRASYNC: BRAIN INTERFACE COMPUTER            ")
-    print("==================================================")
+    print("===================================================")
 
     try:
         vision = EyeTracker()
